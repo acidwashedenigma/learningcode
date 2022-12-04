@@ -1,1 +1,274 @@
-First day coding. Chill sunday, listening to music & trying to keep myself focused on what matters. I think I've found the right path for me. 
+First day coding. Chill sunday, listening to music & trying to keep myself focused on what matters. 
+The work I have ahead of me is a lot. There are so many layers here, so I will be learning for a long time, but this is good. 
+Javascript is our first big project.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+BEGINNING JAVASCRIPT ON CODECADEMY - INTRO ARTICLE 
+
+ARTICLE NOTES
+
+---Why is JavaScript so popular? What can you do with it?
+JavaScript, HTML, and CSS are the core components of web technology. While HTML is responsible for structure and CSS is responsible for style, JavaScript provides interactivity to web pages in the browser.
+JavaScript can be used in both the front-end and back-end of web development.
+JavaScript is standardized so it’s frequently updated with new versions.
+JavaScript integrates easily with HTML and CSS.
+JavaScript offers a wide range of frameworks and libraries that help developers create complex applications with low overhead. Programmers can import libraries and frameworks in their code to augment their application’s functionality.
+JavaScript used for servers, also known as server-side JavaScript, gained popularity because it allowed for scalability. In the server, JavaScript can be integrated with other languages to communicate with databases.
+Node.JS, or Node, is one of the most popular versions of server-side JavaScript.
+Electron.JS - Java framework for cross platform apps excellent for making desktop applications that need to work across different devices regardless of operating system.
+Mastering what is known as “vanilla” or plain JavaScript will help you to tackle more complicated frameworks and libraries to make you a competitive developer.
+
+---Javascript versions - ES6 and before
+ES - EcmaScript.  Ecma International released ECMA-262 which sets standards for the first version of a scripting language
+ES6 provides rules for the architecture of JavaScript features
+To create an app or program you can use JavaScript — if you want to create a new scripting language you can follow the guidelines in ECMAScript
+JavaScript ES6 (or Java ES2015), means that that version of JavaScript is following the specifications in the sixth edition of ECMAScript. (or corresponding year)
+ES6 is the biggest update made to ECMAScript since the first. Some developers even refer to ES6 as “Modern JavaScript” because of all the major additions.
+(ES6) new keywords like let and const to declare variables, new function syntax using arrow functions, creation of classes, parameters with default values, promises for asynchronous actions
+ES6 ultimately allows programmers to save time and write more concise code
+One big ES6 benefit is the ease it allows for utilizing a popular programming paradigm, Object-Oriented Programming (OOP)
+(OOP) allowed for developers of other languages who are used to OOP can now transition into learning and using JavaScript
+ES6 in popular frameworks like React. So, if you want to learn the newest tools and frameworks, you will have to pick up ES6 along the way
+- this being said, do not disregard legacy code such as older versions of java 
+If you want the ability and freedom to work on any sort of JavaScript project, you should familiarize yourself with pre-ES6 and ES6 JavaScript syntax
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+INTRODUCTION TO JAVASCRIPT
+
+JavaScript is primarily known as the language of most modern web browsers
+Console - keyword that refers to an object (collection of data and actions) that we use in our code
+Keywords are built into JS language so the computer recognizes them
+One action, or method, that is built into the console object is the .log() method
+When we write console.log(5); in the command runner, a 5 populates in the black panel to the right (image 1)
+Semicolon denotes end of the line or statement. Get used to using it. Not always needed but sometimes is 
+
+CODE COMMENTS
+Adding notes to your code for your own use - computer will ignore. 
+Single line comment - console.log(27); // Prints your age to the console 
+Multi line comment - begins with /* ends with */ 
+*
+/* This is all commented 
+console.log(10); 
+None of this is going to run!
+console.log(99);
+*/
+*
+OR you can use it in the middle of a line of code 
+- console.log(/*IGNORED!*/5) // Still just prints 5
+Single line comments are great for adding context to your code. Multi-line comments are often best suited to prevent a block of code from running. However, both types of comments can be used for either purpose.
+*
+// Opening line (THIS IS MY SINGLE LINE COMMENT)
+console.log('It was love at first sight.');
+/* (THIS STARTS MY MULTI LINE COMMENT)
+console.log('The first time Yossarian saw the chaplain he fell madly in love with him.');
+console.log('Yossarian was in the hospital with a pain in his liver that fell just short of being jaundice.');
+console.log('The doctors were puzzled by the fact that it wasn\'t quite jaundice.');
+console.log('If it became jaundice they could treat it.');
+console.log('If it didn\'t become jaundice and went away they could discharge him.');
+console.log('But this just being short of jaundice all the time confused them.');
+*/ (THIS ENDS MY MULTI LINE COMMENT)
+*
+
+
+
+PRIMITIVE DATA TYPES
+Number - any number including decimals
+String - any grouping of characters surrounded by single quotes (fancy word for text)
+Boolean - either true or false (without quotes) - either y/n
+Null - intentional absence of a value. represented by keyword null
+Undefined - like null, represents absence of a value, though it means the given value does not exist
+Symbol - Newer feature, more complex, unique identifiers. learn more later. 
+Object - Collection of related data 
+- MOST BASIC DATA TYPES IN THE LANGUAGE. OBJECTS ARE MORE COMPLEX. 
+
+
+
+STRINGS AND NUMBERS 
+Javascript 
+2011
+Woohoo! I love to code! -- to get this output, we enter:
+console.log('JavaScript');
+console.log(2011);
+console.log('Woohoo! I love to code!');
+
+
+
+ARITHMETIC OPERATIONS
+Operator - character that performs a task in our code. Add, subtract, multiply, divide, remainder
+*
+console.log(3 + 4); // Prints 7
+console.log(5 - 1); // Prints 4
+console.log(4 * 2); // Prints 8
+console.log(9 / 3); // Prints 3
+console.log(11 % 3); // Prints 2 (equals 2 because 3 fits into 11 3 times, leaving 2 over)
+console.log(12 % 3); // Prints 0 (equals 0 because it evenly multiplies into 12)
+*
+The remainder operator (modulo) returns the number that remains after the right-hand number divides into the left-hand 
+console.log(27 + 3.5); // ADDED 3.5 years to my age 
+
+
+
+STRING CONCATENATION 
+Concatenation is the act of appending one string to another using an operator
+* 
+console.log('hi' + 'ya'); // Prints 'hiya'
+console.log('wo' + 'ah'); // Prints 'woah'
+console.log('I love to ' + 'code.')
+// Prints 'I love to code.'
+*
+Computer will join the words exactly, so add the space where you need it to be if you want the words seperated. 
+Notice the space at the end of 'front' but before the quotation - this makes 'front space' 
+Without the space would be 'frontspace'
+* 
+console.log('front ' + 'space'); 
+// Prints 'front space'
+console.log('back' + ' space'); 
+// Prints 'back space'
+console.log('no' + 'space'); 
+// Prints 'nospace'
+console.log('middle' + ' ' + 'space'); 
+// Prints 'middle space'
+*
+console.log('One' + ', ' + 'two' + ', ' + 'three!'); 
+// Prints 'One, two, three!'
+*
+
+
+
+PROPERTIES
+When you introduce a new piece of data into a JS program, the browswer saves it as an instance of its data type
+All data types have access to specific properties that are passed down to each instance 
+For example, every string instance has a property called 'length' that stores the number of characters in the string. 
+You can retrieve property info by appending the string with a period and the property name
+The period is called the Dot Operator 
+*
+console.log('Hello'.length); // Prints 5
+*
+console.log('Teaching the world how to code' .length); // PRINTS 30
+*
+
+
+
+METHODS
+Actions that we can perform
+Data types have access to specific methods that allow us to handle instances of that data type
+Javascript provides a number of string methods
+We 'call' or use these methods by appending a string with 
+- a period (dot operator)
+- the name of the method 
+- opening and closing parentheses
+*
+console.log('hello'.toUpperCase()); // Prints 'HELLO'
+console.log('Hey'.startsWith('H')); // Prints true // Uses letter H as an input or argument between the (), since it starts with an H, it returns the boolean 'true'
+*
+// Use .toUpperCase() to log 'Codecademy' in all uppercase letters
+console.log('Codecademy' .toUpperCase());
+// Use a string method to log the following string without whitespace at the beginning and end of it.
+console.log('    Remove whitespace   ' .trim());
+*
+
+
+
+BUILT IN OBJECTS
+In addition to console, there are other objects built into Java
+If you wanted to perform more complex mathematical operations than arithmetic, JavaScript has the built-in Math object.
+Objects have methods. Using the .random() method from the built-in Math object:
+* 
+console.log(Math.random()); // Prints a random number between 0 and 1
+* 
+Called .random() // This method returns a random number between 0 (inclusive) and 1 (exclusive).
+To generate a random number between 0 and 50, we could multiply this result by 50
+*
+Math.random() * 50;
+*
+Will come out as a decimal 
+Use math.floor() - rounds a decimal number DOWN to the nearest whole number
+*
+Math.floor(Math.random() * 50);
+*
+WHAT DID WE DO 
+Math.random() generates random number between 0 and 1
+Multiply that decimal by 50 using the multiply operator
+Used Math.floor() - in the parentheses is our Math.random() * 50 // rounded our 0-50 decimaled number down to a whole number 
+IF YOU WANTED TO PRINT THIS RESULT 
+* 
+console.log(Math.floor(Math.random() * 50)); // Prints a random whole number between 0 and 50
+*
+console.log(Math.ceil(43.8)); // used Math.ceil() to round (43.8) to 44
+*
+console.log(Number.isInteger(2017)); // uses the Number object method .isInteger to check if (2017) is an integer 
+*
+
+
+
+REVIEW OF INTRODUCTION TO JAVASCRIPT 
+Data is printed, or logged, to the console, a panel that displays messages, with console.log().
+We can write single-line comments with // and multi-line comments between /* and */.
+There are 7 fundamental data types in JavaScript: strings, numbers, booleans, null, undefined, symbol, and object.
+Numbers are any number without quotes: 23.8879
+Strings are characters wrapped in single or double quotes: 'Sample String'
+The built-in arithmetic operators include +, -, *, /, and %.
+Objects, including instances of data types, can have properties, stored information. The properties are denoted with a . after the name of the object, for example: 'Hello'.length.
+Objects, including instances of data types, can have methods which perform actions. Methods are called by appending the object or instance with a period, the method name, and parentheses. For example: 'hello'.toUpperCase().
+We can access properties and methods by using the ., dot operator.
+Built-in objects, including Math, are collections of methods and properties that JavaScript provides.
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+VARIABLES 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
