@@ -1,0 +1,144 @@
+DAY 2 -- 12/5/2022
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+VARIABLES 
+
+
+INTRO
+Variable is a container for a value (little containers for info that live in computers memory)
+Variables also provide a way of labeling data with a descriptive name, so our programs can be understood more clearly 
+Variables label and store data in memory. 
+There are only a few things you can do with them:
+- create a variable with a descriptive name 
+- store or update information stored in a variable
+- reference or "get" information stored in a variable 
+* Variables are not values. They contain values and represent them with a name. 
+
+
+
+CREATE A VARIABLE
+With the ES6 version of JavaScript in 2015, two new keywords added, 'let' and 'const', to create, or declare, variables
+Previously programmers could only use the 'var' to declare variables 
+*
+var myName = 'Arya';
+console.log(myName);
+// Output: Arya
+*
+'var' for variable, is a keyword that creates/declares a new variable
+myName is the variables name (thisMethod of capitalizing is called camel casing - standard JS convention)
+= is the assignment operator. assings the value (Arya) to the variable (myName)
+assigned name is then displayed using control.log(myName)
+Rules for naming variables:
+- variable names cannot start with numbers
+- variable names are case sensitive, so myName and myname would be different variables
+- variable names cannot ve the same as keywords (refer to keyword list in bookmarks)
+
+'let' and 'const' are the preferred variable keywords by many programmers
+There is still a ton of code written prior to ES6, it’s helpful to be familiar with the pre-ES6 'var' keyword.
+*
+var favoriteFood = 'pizza';
+var numOfSlices = 8;
+console.log(favoriteFood); // prints pizza
+console.log(numOfSlices); // prints 8
+*
+We are using 'var' to call to the variable we want to manipulate 
+favoriteFood and numOfSlices are variables 
+'Pizza' and '8' are values that we are adding to the variable using (=) 
+
+
+
+CREATING A VARIABLE 
+The 'let' keyword signals that the variable can be reassigned a different value
+*
+let meal = 'Enchiladas';
+console.log(meal); // Output: Enchiladas
+meal = 'Burrito';
+console.log(meal); // Output: Burrito
+*
+It creates a conditional value
+It is possible to create a variable without any value. will be filled with value (undefined)
+*
+let price;
+console.log(price); // Output: undefined
+price = 350;
+console.log(price); // Output: 350
+*
+Note that when using boolean true, you enter it just as true and don't use quotes or ()
+*
+let changeMe = true; // prints true
+changeMe = false; // prints false 
+console.log(changeMe); // prints false
+*
+
+
+
+CREATE A VARIABLE -- CONSTANT
+'const' is another keyword introduced in ES6 // short for constant 
+Declaring a 'const' variable & assigning a value to it follows the same structure as 'let' and 'var'
+*
+const myName = 'Gilberto';
+console.log(myName); // Output: Gilberto
+*
+However, a const variable cannot be reassigned because it is constant. If you try to reassign a const variable, you’ll get a TypeError.
+Constant variables must be assigned a value when declared. If you try to declare a const variable without a value, you’ll get a SyntaxError.
+If you need to reassign the variable use let, otherwise, use const.
+*
+const entree = 'Enchiladas';
+console.log(entree); // prints Enchilidas 
+entree = 'Tacos'; // TypeError // this checks out because it's a constant variable 
+*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
