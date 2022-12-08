@@ -1,0 +1,109 @@
+Tuesday 12.6.22
+
+Logged into Codecademy and while I'm still on the same career path, the ordering of my lessons changed. 
+
+I still have my progress logged in the Javascript module. But it now wants me to start at the first module
+Which makes sense 
+Java is the second module. and I actually found it weird where I was starting but didn't question. 
+
+Anyway, it seems like i'm backtracking a bit but no biggy. 
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Welcome to the Full-Stack Engineer Path
+
+
+
+The internet and Web Development
+
+
+Overview of the Internet
+
+4 billion on the web 
+2 billion websites 
+Internet started as ARPANET - network connecting government/university supercomputers
+1969 ARPANET connected supercomputing centers run by government agencies and universities.
+They created TCP/IP Internet Protocol 
+As different networks adopted TCP/IP, the interconnected global network of networks that is today known as the internet was formed.
+
+Internet was at first just computers sending messages to each other
+Engagement with the internet changed in 1989 when Tim Berners-Lee invented the world wide web
+The world wide web is a collection of interlinked websites and other web resources
+The world wide web, in combination with the rise of web browsers in the 1990s, introduced a user-friendly interface that enabled users to browse multimedia content and interact with other users.
+
+The invention of the world wide web led to the use of the internet in wider society through the 1990s
+Websites that are still in use today 
+
+
+
+
+
+BROWSERS AND SERVERS 
+
+Client Server Model 
+-- Client is users device/program making request for data 
+-- Server is device/program that recieves and sends back data. 
+-- Server can be in-house, rented, at data center, or cloud server
+
+HTTP status codes
+When a server responds to a client, the server specifies a status code as part of the response
+Status codes indicate whether of not the HTTP request was successfully completed 
+- if there was an error, they contain info about the type of error
+The status code helps the browser know how to handle the data that was sent back with the response
+
+404 / Not Found
+The requested resource was not found 
+
+500 / Internal Server Error 
+The server encountered an expected error
+
+301 / Moved Permanently  
+The resource has been moved and the client is being redirected
+
+200 / OK
+The request has succeeded
+
+Most of the time multiple requests are being made
+Like when using a webpage 
+
+User types in URL and hits enter 
+(all in a split second)
+Server processes the request and sends HTML file back to client
+HTML Files hold the content of a website 
+Also contain links for additional assets or code needed to display site properly 
+Browser begins to search for elements in HTML file 
+It will start to make additional HTTP requests for other external resources used by HTML file
+
+This often includes...
+
+One ore more CSS Stylesheets
+- Cascading style sheets
+- Creates the style and layoud of a webpage 
+- Browser will request CSS stylesheet 
+- Server sends back and browser analyzes the CSS and applies visual styles to the content of the site
+
+The request-response cycle also sends website assets like images and vides from server to browser
+- If files are large, there will be delay before they are rendered by the browswer
+
+One or more JavaScript files. JS makes the webpage interactive
+- Functions as the behavior of the webpage
+- Site that doesn't use JS is 'static' webpage 
+
+user can now interact with the website that they requested to see.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
